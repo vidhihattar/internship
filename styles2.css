@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* ---------------------nav bar-------------------------*/
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 65px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  height: 50px;
+  margin: 6px 10px;
+}
+
+.brand{
+  margin: auto 60px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight:400;
+}
+
+.mid-nav-links{
+  margin: auto 0;
+}
+
+.mid-nav-links .nav-links{
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  position: relative;
+}
+
+.mid-nav-links .nav-links:hover{
+  color: #ff7017;
+}
+
+.mid-nav-links .nav-links::after{
+    content: '';
+    position: absolute;
+    width: 30%;
+    bottom: -30%;
+    left: 35%;
+    border-bottom: 3px solid transparent;
+    border-radius: 40px;
+}
+
+.mid-nav-links .nav-links:hover::after{
+  background: #ff7017;
+  color: #ff7017;
+}
+
+.right-nav-links{
+  display: flex;
+  justify-content: center;
+  margin: 0 40px;
+}
+
+.right-nav-links button{
+  margin: 8px 0;
+  padding: 0 15px;
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.right-nav-links button:hover{
+  background: black;
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+}
+/* ---------------------nav bar end-------------------- */
+/* ---------------------Searchbar------------------------ */
+
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 70px;
+}
+.search-bar{
+  height: 55px;
+  width: 50%;
+  background-color: #f1f1f1;
+  border-radius: 40px;
+
+}
+.search-input{
+  border:none;
+  width:90%;
+  height: 100%;
+  background-color: #f1f1f1;
+  border-radius: 40px;
+  font-size: 15px;
+
+}
+
+.search-icon{
+  border-radius: 50%;
+  background-color: #253237;
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin: 4px;
+  border: none;
+}
+
+.search-btn{
+  border: none;
+  background: #ff7017;
+  color: white;
+  margin-left: 15px;
+  border-radius: 40px;
+  padding: 20px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+
+/* ---------------------Searchbar end------------------------ */
