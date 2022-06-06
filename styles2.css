@@ -73,7 +73,13 @@ nav{
   font-family: 'Montserrat', sans-serif;
 }
 
-.right-nav-links button:hover{
+.right-nav-links button.login-btn{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.right-nav-links button.register-btn{
   background: black;
   color: white;
   border-radius: 40px;
